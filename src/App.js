@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import {Sidenav, Home, About} from './components';
+import {Sidenav, Top, About, Projects, Skills, Contact, Footer} from './components';
 
 
 class App extends Component {
@@ -9,8 +9,12 @@ class App extends Component {
     return (
       <div className="main-container">
         <Sidenav />
-        <Home />
+        <Top />
         <About />
+				<Projects />
+				<Skills />
+				<Contact />
+				<Footer />
       </div>
     )
   }

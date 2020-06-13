@@ -3,9 +3,9 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="about" className="container fullpage scrollspy">
+    <section id="about" className="section container fullpage">
       <h1>About</h1>
-    </div>
+    </section>
   )
 }
 

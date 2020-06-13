@@ -1,13 +1,14 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
 body {
   background: #ccc;
 }
 
 .highlight {
   color: #18BC9C !important;
-}
-
-.main-container {
-
 }
 
 ul.sidenav {
@@ -26,7 +27,6 @@ ul.sidenav li.logo {
 
 ul.sidenav li.logo h3 {
   font-size: 2.2em;
-  color: teal;
 }
 
 ul.sidenav li.logo span {
@@ -34,5 +34,6 @@ ul.sidenav li.logo span {
 }
 
 .fullpage {
+	padding: 0;
   height: 100vh;
 }
