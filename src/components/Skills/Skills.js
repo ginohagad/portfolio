@@ -1,12 +1,12 @@
 import React from 'react';
-
-
+import {Page} from '../';
 
 const Skills = () => {
+
   return (
-    <section id="skills" className="section container fullpage">
-      <h1>Skills</h1>
-    </section>
+    <Page title="Skills">
+      <p>This is the Skills page.</p>
+    </Page>
   )
 }
 

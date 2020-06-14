@@ -1,3 +1,5 @@
+export { default as Page } from './Page/Page';
+export { default as Header } from './Header/Header';
 export { default as Sidenav } from './Sidenav/Sidenav';
 export { default as Top } from './Top/Top';
 export { default as About } from './About/About';

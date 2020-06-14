@@ -1,12 +1,13 @@
 import React from 'react';
+import {Page} from '../'
 
 
 
 const Contact = () => {
 	return (
-		<div id="contact" className="section container fullpage">
-			<h1>Contact</h1>
-		</div>
+    <Page title="Contact">
+      <p>This is the Contact page.</p>
+    </Page>
 	)
 }
 

@@ -1,11 +1,11 @@
 import React from 'react';
-
+import {Page} from '../';
 
 const Projects = () => {
 	return (
-		<div id="projects" className="section container fullpage">
-			<h1>Projects</h1>
-		</div>
+    <Page title="Projects">
+      <p>This is the Projects page.</p>
+    </Page>
 	)
 }
 
