@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Header.module.css'
 
 
 
@@ -7,7 +8,7 @@ const Header = (props) => {
   const { title } = props;
 
   return (
-    <div className="header">
+    <div className={styles.header}>
       <h1>{title}</h1>  
     </div>
   )
