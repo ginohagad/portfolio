@@ -9,7 +9,9 @@ const Header = (props) => {
 
   return (
     <div className={styles.header}>
-      <h1>{title}</h1>  
+      <div className="container">
+        <h1>{title}</h1>  
+      </div>
     </div>
   )
 }

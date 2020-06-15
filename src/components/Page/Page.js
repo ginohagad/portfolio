@@ -8,9 +8,13 @@ const Page = (props) => {
   const title_id = title.toLowerCase();
 
   return (
-    <section id={title_id} className="section container fullpage">
+    <section id={title_id} className="section fullpage">
       <Header title={title} />
-      {props.children}
+      <div className="container">
+        <div className="content">
+          {props.children}
+        </div>
+      </div>
     </section>
   )
 }

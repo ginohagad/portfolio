@@ -7,7 +7,7 @@ const Sidenav = () => {
       <ul id="nav-mobile" className="sidenav sidenav-fixed">
 				<a href="#top">
 					<li className="logo">
-						<h3 className="teal-text">Gerardo Hagad</h3>
+						<h3>Gerardo Hagad</h3>
 						<span>Web Developer</span>
 					</li>
 				</a>
