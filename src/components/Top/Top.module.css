@@ -1,0 +1,15 @@
+.top {
+  background: url(../../images/naturebg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top h2 {
+  color: #eee;
+  margin-left: 4em !important;
+  margin-top: 0;
+  position: relative;
+  top: 55%;
+}
