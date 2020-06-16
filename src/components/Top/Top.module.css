@@ -7,9 +7,17 @@
 }
 
 .top h2 {
-  color: #eee;
   margin-left: 4em !important;
+}
+
+.top h4 {
+  margin-left: 6.3em !important;
+}
+
+.top h2, h4 {
+  color: #eee;
   margin-top: 0;
   position: relative;
-  top: 55%;
+  top: 5%;
 }
+

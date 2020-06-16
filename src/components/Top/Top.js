@@ -8,7 +8,7 @@ const Top = () => {
   return (
     <section id="top" className={`${styles.top} section fullpage`}>
       <h2>My name is Gino.</h2>
-      <h2>I am a Web Developer <br />in Wellington, New Zealand.</h2>
+			<h4>I am a Web Developer <br />in Wellington City, <br /> New Zealand.</h4>
     </section>
   )
 }
