@@ -1,12 +1,11 @@
 import React from 'react';
 import {Page} from '../';
-import styles from './About.module.css';
 
 const About = () => {
 
   return (
     <Page title="About">
-      <div className={styles.about}>
+      <div className="about">
         <h4>This is the About page.</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt tortor a quam porttitor luctus. Fusce dictum enim id est maximus pulvinar. Sed venenatis, diam vitae fermentum euismod, quam magna maximus mauris, id aliquam nibh libero vitae augue. Suspendisse imperdiet eu metus ut molestie. Pellentesque mollis erat id metus volutpat mollis. Quisque aliquam ullamcorper malesuada. Etiam eu porta orci. Proin faucibus dignissim mattis. Nullam non consequat arcu. Sed malesuada est eu lacinia dignissim.</p>
 

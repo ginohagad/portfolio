@@ -1,3 +1,11 @@
+:root {
+  --main-blue-color: #006699;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -22,7 +30,7 @@ ul.sidenav li.logo {
 
 ul.sidenav li.logo h3 {
   font-size: 2.2em;
-  color: #006699;
+  color: var(--main-blue-color);
 }
 
 ul.sidenav li.logo span {
@@ -45,3 +53,45 @@ ul.sidenav li.logo span {
 .content {
   margin-left: 4%;
 }
+
+/* TOP */
+.top {
+  background: url(images/computerbg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top h2 {
+  margin-left: 4em !important;
+}
+
+.top h4 {
+  margin-left: 6.3em !important;
+}
+
+.top h2, h4 {
+  color: #eee;
+  margin-top: 0;
+  position: relative;
+  top: 40%;
+}
+
+.top h2 span {
+  color: var(--main-blue-color);
+  text-shadow: 2px 2px #282828;
+}
+
+.top h4 span {
+  color: brown;
+  text-shadow: 2px 2px #282828;
+}
+
+/* ABOUT */
+.about h4 {
+  color: brown;
+  border-left: 3px solid brown;
+  padding-left: 20px;
+}
+
