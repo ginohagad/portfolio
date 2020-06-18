@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <Page title="Skills">
       <div className="card horizontal">
-        {images.map(({id, src, title}) => 
+        {images.map(({id, src, title}, idx) => 
           <div className="card-image">
             <img className="web_logos" src={src} alt="HTML Logo" />
             <span className="card-title">{title}</span>
