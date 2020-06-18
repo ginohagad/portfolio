@@ -95,3 +95,18 @@ ul.sidenav li.logo span {
   padding-left: 20px;
 }
 
+
+
+/* SKILLS */
+.card-image {
+  padding: 30px;
+}
+
+.card .card-image .card-title {
+  color: #000 !important;
+  position: relative !important;
+}
+
+.web_logos {
+  width: 8em;
+}
