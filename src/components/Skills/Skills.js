@@ -39,11 +39,16 @@ const Skills = () => {
 		},
 		{
 			id: 6,
+			src: materialize,
+			title: 'Materialize',
+		},
+		{
+			id: 7,
 			src: nodejs,
 			title: 'NodeJS',
 		},
 		{
-			id: 7,
+			id: 8,
 			src: react,
 			title: 'React',
 		},
