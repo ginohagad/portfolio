@@ -102,11 +102,17 @@ ul.sidenav li.logo span {
   padding: 30px;
 }
 
-.card .card-image .card-title {
+.card .card-image .horizontal {
   color: #000 !important;
   position: relative !important;
 }
 
 .web_logos {
-  width: 8em;
+	width: 6em !important;
+	display: block;
+	margin: 0 auto;
+}
+
+.card-title {
+	color: #000 !important;
 }
