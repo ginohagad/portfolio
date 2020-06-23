@@ -1,5 +1,6 @@
 import React from 'react';
 import {Page} from '../';
+
 import html5 from '../../images/web/html5.png';
 import css3 from '../../images/web/css3.png';
 import javascript from '../../images/web/javascript.png';
@@ -57,16 +58,20 @@ const Skills = () => {
   return (
     <Page title="Skills">
       <div className="card horizontal">
-				{images.map(({id, src, title}, idx) => 
-					<div className="card-image">
-						<img className="web_logos" src={src} alt="HTML Logo" />
-						<div className="card-content">
-							<div className="row text-center">
-								<span className="card-title">{title}</span>
+				<div className="row">
+					{images.map(({id, src, title}, idx) => 
+					<div className="col m4">
+						<div className="card-image">
+							<img className="web_logos" src={src} alt="HTML Logo" />
+							<div className="card-content">
+								<div className="row text-center">
+									<span className="card-title">{title}</span>
+								</div>
 							</div>
 						</div>
 					</div>
-				)}
+					)}
+				</div>
       </div>
     </Page>
   )
