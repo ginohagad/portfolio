@@ -4,7 +4,7 @@ import {Page} from '../';
 const Projects = () => {
 	return (
     <Page title="Projects">
-      <p>This section will be available soon.</p>
+			<p>This section will be available soon.</p>
     </Page>
 	)
 }
