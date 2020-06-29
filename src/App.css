@@ -112,6 +112,10 @@ ul.sidenav .logo h3, .logo span {
 }
 
 /* ABOUT */
+.about {
+  padding-top: 100px;
+}
+
 .about h4 {
   color: brown;
   border-left: 3px solid brown;
@@ -142,6 +146,17 @@ ul.sidenav .logo h3, .logo span {
 
 .card-title {
 	color: #000 !important;
+}
+
+
+/* CONTACT */
+.contact {
+  padding-top: 70px;
+}
+
+.email {
+  margin-left: 20px;
+  font-size: 20px;
 }
 
 
